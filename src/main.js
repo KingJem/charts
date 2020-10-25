@@ -2,6 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import { Button } from 'element-ui'
+import { Select } from 'element-ui'
+
+
+Vue.component(Button.name, Button);
+Vue.component(Select.name, Select);
 
 Vue.config.productionTip = false
 
